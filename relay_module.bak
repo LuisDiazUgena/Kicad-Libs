@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# relay_module
+#
+DEF relay_module R 0 40 Y Y 1 F N
+F0 "R" -650 400 60 H V C CNN
+F1 "relay_module" -250 400 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+T 900 -250 100 60 0 0 0 Relay  Normal 0 C C
+C -450 0 50 0 1 0 N
+C -450 100 50 0 1 0 N
+C -450 200 50 0 1 0 N
+S -500 250 -400 -50 0 1 0 N
+S -350 250 -150 -50 0 1 0 N
+S 50 300 -550 -100 0 1 0 N
+P 2 0 1 0  -500 0  -400 0 N
+P 2 0 1 0  -500 100  -400 100 N
+P 2 0 1 0  -500 200  -400 200 N
+P 2 0 1 0  -450 250  -450 -50 N
+X S 1 200 0 200 L 50 50 1 1 I
+X + 2 200 100 200 L 50 50 1 1 I
+X - 3 200 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
